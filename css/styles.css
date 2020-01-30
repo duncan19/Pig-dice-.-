@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color:grey;
+  background-color: grey;
 }
 .playerOne {
   background-color: blue;
@@ -9,7 +9,7 @@ body {
   background-color: red;
 }
 #playerOne {
-  border-style:groove;
+  border-style: groove;
   border-color: blue;
 }
 #playerTwo {
