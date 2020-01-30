@@ -21,11 +21,11 @@ $(document).ready(function(){
     //end turn
    if( currentPlayer === 1){
     currentPlayer = 2
-    console.log("swapped to player 2");
+    $("#roll-btn, #hold-btn").removeClass("playerOne").addClass("playerTwo");
    }
    else if( currentPlayer === 2){
     currentPlayer = 1
-    console.log("swapped to player 1");
+    $("#roll-btn, #hold-btn").removeClass("playerTwo").addClass("playerOne");
    }
     }
     else if (currentDie > 1) {
@@ -63,11 +63,11 @@ $(document).ready(function(){
     //end turn
     if( currentPlayer === 1){
       currentPlayer = 2
-      console.log("swapped to player 2");
+      $("#roll-btn, #hold-btn").removeClass("playerOne").addClass("playerTwo");
      }
      else if( currentPlayer === 2){
       currentPlayer = 1
-      console.log("swapped to player 1");
+      $("#roll-btn, #hold-btn").removeClass("playerTwo").addClass("playerOne");
      }
   })
   
