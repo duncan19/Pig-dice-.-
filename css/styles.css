@@ -1,6 +1,9 @@
 body {
   text-align: center;
-  background-color: grey;
+  background-image: linear-gradient(grey, green);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1800px;
 }
 .playerOne {
   background-color: blue;
@@ -25,4 +28,23 @@ body {
   display: inline-block;
   font-size: 16px;
   font-family: fantasy;
+}
+#ai-btn {
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: fantasy;
+  background-color: purple;
+}
+h1 {
+  font-family: fantasy;
+  font-weight: bold;
+}
+.number {
+  font-family: fantasy;
+  font-size: 25px;
 }
